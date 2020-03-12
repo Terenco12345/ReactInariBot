@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Terenco12345/ReactInariBot/static/css/main.3f98bfec.chunk.css",
+    "main.js": "/Terenco12345/ReactInariBot/static/js/main.fc1be088.chunk.js",
+    "main.js.map": "/Terenco12345/ReactInariBot/static/js/main.fc1be088.chunk.js.map",
+    "runtime-main.js": "/Terenco12345/ReactInariBot/static/js/runtime-main.1b1de346.js",
+    "runtime-main.js.map": "/Terenco12345/ReactInariBot/static/js/runtime-main.1b1de346.js.map",
+    "static/js/2.760cd009.chunk.js": "/Terenco12345/ReactInariBot/static/js/2.760cd009.chunk.js",
+    "static/js/2.760cd009.chunk.js.map": "/Terenco12345/ReactInariBot/static/js/2.760cd009.chunk.js.map",
+    "index.html": "/Terenco12345/ReactInariBot/index.html",
+    "precache-manifest.352f7f0ee958a9192ebd6c3d32363ac2.js": "/Terenco12345/ReactInariBot/precache-manifest.352f7f0ee958a9192ebd6c3d32363ac2.js",
+    "service-worker.js": "/Terenco12345/ReactInariBot/service-worker.js",
+    "static/css/main.3f98bfec.chunk.css.map": "/Terenco12345/ReactInariBot/static/css/main.3f98bfec.chunk.css.map",
+    "static/js/2.760cd009.chunk.js.LICENSE.txt": "/Terenco12345/ReactInariBot/static/js/2.760cd009.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b1de346.js",
+    "static/js/2.760cd009.chunk.js",
+    "static/css/main.3f98bfec.chunk.css",
+    "static/js/main.fc1be088.chunk.js"
+  ]
+}
