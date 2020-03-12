@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06801451573ab334785d0ea59a27a5c3",
+    "revision": "32728d4357e7da8eb176426a40af5c34",
     "url": "/ReactInariBot/index.html"
   },
   {
-    "revision": "a8c4ed301139b530200e",
+    "revision": "5044f20cd34ed10f1395",
     "url": "/ReactInariBot/static/css/main.3f98bfec.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactInariBot/static/js/2.c7046fb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8c4ed301139b530200e",
-    "url": "/ReactInariBot/static/js/main.cd9a5081.chunk.js"
+    "revision": "5044f20cd34ed10f1395",
+    "url": "/ReactInariBot/static/js/main.ff9b9344.chunk.js"
   },
   {
     "revision": "d43d5e11ecdf012d7b62",
