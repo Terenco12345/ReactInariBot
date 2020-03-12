@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactInariBot/static/css/main.3f98bfec.chunk.css",
-    "main.js": "/ReactInariBot/static/js/main.80e19453.chunk.js",
-    "main.js.map": "/ReactInariBot/static/js/main.80e19453.chunk.js.map",
+    "main.js": "/ReactInariBot/static/js/main.87f44c65.chunk.js",
+    "main.js.map": "/ReactInariBot/static/js/main.87f44c65.chunk.js.map",
     "runtime-main.js": "/ReactInariBot/static/js/runtime-main.ce0ae011.js",
     "runtime-main.js.map": "/ReactInariBot/static/js/runtime-main.ce0ae011.js.map",
     "static/js/2.c7046fb5.chunk.js": "/ReactInariBot/static/js/2.c7046fb5.chunk.js",
     "static/js/2.c7046fb5.chunk.js.map": "/ReactInariBot/static/js/2.c7046fb5.chunk.js.map",
     "index.html": "/ReactInariBot/index.html",
-    "precache-manifest.cd7ae31d92636d318cacb12de34d6358.js": "/ReactInariBot/precache-manifest.cd7ae31d92636d318cacb12de34d6358.js",
+    "precache-manifest.ae0ab11c144c7c54275856c7e2cd8aff.js": "/ReactInariBot/precache-manifest.ae0ab11c144c7c54275856c7e2cd8aff.js",
     "service-worker.js": "/ReactInariBot/service-worker.js",
     "static/css/main.3f98bfec.chunk.css.map": "/ReactInariBot/static/css/main.3f98bfec.chunk.css.map",
     "static/js/2.c7046fb5.chunk.js.LICENSE.txt": "/ReactInariBot/static/js/2.c7046fb5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ce0ae011.js",
     "static/js/2.c7046fb5.chunk.js",
     "static/css/main.3f98bfec.chunk.css",
-    "static/js/main.80e19453.chunk.js"
+    "static/js/main.87f44c65.chunk.js"
   ]
 }
