@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './master-detail.module.css';
 const Discord = require('discord.js')
 const client = new Discord.Client();
-const BOT_TOKEN = "NDMzMTc4MjY5NjI2NDAwNzY4.XmmsRw.fDZBLyCnn4jzIFZdZ-8DhsoUD_g"
+const BOT_TOKEN = "NDMzMTc4MjY5NjI2NDAwNzY4.Xmmu6Q.klzuYZcpG1Z9vvpZO833muEZk3k"
 
 export default class BotView extends React.Component {
     constructor(props) {
