@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ReactInariBot/precache-manifest.5ed34c0b93713a20d08abfa10ea890be.js"
+  "/ReactInariBot/precache-manifest.d4f4d8cf04adf2c1a944abe8006d1bad.js"
 );
 
 self.addEventListener('message', (event) => {
