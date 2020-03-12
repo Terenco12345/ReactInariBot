@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './master-detail.module.css';
 const Discord = require('discord.js')
 const client = new Discord.Client();
-const BOT_TOKEN = "NDMzMTc4MjY5NjI2NDAwNzY4.Xmmu6Q.klzuYZcpG1Z9vvpZO833muEZk3k"
 
 export default class BotView extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            botToken: "",
             clientConnected: false,
             clientListening: false,
             currentMessage: "Idle.",
@@ -22,15 +22,23 @@ export default class BotView extends React.Component {
 
         this.updateMessageInput = this.updateMessageInput.bind(this);
         this.sendMessage = this.sendMessage.bind(this);
+        this.startDiscordBot = this.startDiscordBot.bind(this);
+        this.updateBotToken = this.updateBotToken.bind(this);
     }
 
     tick() {
 
     }
 
-    startDiscordBot() {
+    updateBotToken(event){
+        this.setState({
+            botToken : event.target.value
+        });
+    }
+
+    startDiscordBot(event) {
         this.setState((state, props) => ({
-            currentMessage: "Connecting with token "+BOT_TOKEN
+            currentMessage: "Connecting with token "+this.state.botToken
         }));
         
         // Client logon code (update guilds and channels in state)
@@ -60,7 +68,14 @@ export default class BotView extends React.Component {
             })
             console.log(this.state.channels);
         });
-        client.login(BOT_TOKEN);
+        client.login(this.state.botToken).catch(()=>{
+            console.log("Invalid token!");
+            this.setState((state, props) => ({
+                currentMessage : this.state.botToken + " is an invalid token!"
+            }));
+        });
+        
+        event.preventDefault();
     }
 
     startListeningToMessages(){
@@ -183,7 +198,15 @@ export default class BotView extends React.Component {
                             <p>Status: {this.state.currentMessage}</p>
                         </div>
                         
-                        {this.state.clientConnected ? null : <button onClick={() => this.startDiscordBot()}>Start Bot</button>}
+                        {this.state.clientConnected ? null : 
+                            <form onSubmit={this.startDiscordBot}>
+                                <label>
+                                    Enter bot token here: 
+                                    <input type="text" value={this.state.botToken} onChange={this.updateBotToken}></input>
+                                    <input type="submit" value="Start bot"></input>
+                                </label>
+                            </form>
+                        }
                         <ul>{messageList}</ul>
                         {this.state.selectedChannel == null ? null : 
                         <form onSubmit={this.sendMessage}>
